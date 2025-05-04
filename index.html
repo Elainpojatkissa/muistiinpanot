@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muistiinpanot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 id="app-title">Muistiinpanot</h1>
+    <select id="language-selector">
+      <option value="fi">Suomi</option>
+      <option value="en">English</option>
+    </select>
+    <textarea id="note-input" placeholder="Kirjoita muistiinpano..."></textarea>
+    <button id="add-note">Lisää</button>
+    <input type="text" id="search-input" placeholder="Hae muistiinpanoista" />
+    <button id="toggle-theme">Vaihda Tumman Tilaan</button>
+    <ul id="notes-list"></ul>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
